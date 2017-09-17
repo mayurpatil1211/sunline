@@ -79,7 +79,7 @@ section {
 
 @media (min-width: 768px) {
   section {
-    padding: 71px 0; } }
+    padding: 85px 0; } }
 
 ::-moz-selection {
   background: #fed136;
@@ -491,11 +491,11 @@ section#contact {
     margin-bottom: 25px; }
     section#contact .form-group input,
     section#contact .form-group textarea {
-      padding: 20px; }
+      padding: 10px; }
     section#contact .form-group input.form-control {
       height: auto; }
     section#contact .form-group textarea.form-control {
-      height: 236px; }
+      height: 100px; }
   section#contact .form-control:focus {
     border-color: #fed136;
     box-shadow: none; }
@@ -542,7 +542,8 @@ footer {
     text-transform: uppercase; }
 
 ul.social-buttons {
-  margin-bottom: 0; }
+  margin-bottom: 0; 
+padding-top: 10px}
   ul.social-buttons li a {
     font-size: 20px;
     line-height: 40px;
@@ -644,3 +645,81 @@ ul.social-buttons {
   .btn-xl .badge {
     color: #fed136;
     background-color: white; }
+
+#principle{
+    text-align: center;
+  color: white;
+  background-image: url("../img/vision.jpeg");
+  /*background-image: url("../img/header-bg.jpg");*/
+  /*background-image: url("../img/logos/workshop.jpeg");*/
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+      width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.8;
+  background-size: cover; 
+}
+
+#team{
+  padding: 17px !important;
+}
+
+
+/* external css: flickity.css */
+
+.main-text
+{
+    position: absolute;
+    top: 50px;
+    width: 96.66666666666666%;
+    color: #FFF;
+}
+.btn-min-block
+{
+    min-width: 170px;
+    line-height: 26px;
+}
+.btn-clear
+{
+    color: #FFF;
+    background-color: transparent;
+    border-color: #FFF;
+    margin-right: 15px;
+}
+.btn-clear:hover
+{
+    color: #000;
+    background-color: #FFF;
+}
+
+.address_block{
+  color: white;
+}
+
+.contact_email{
+      margin: 0px;
+    float: left;
+}
+.contact_email_block{
+  padding-bottom: 14px;
+}
+
+.inner-carousel{
+  height:352px;
+}
+.container-fluid {
+    width: 100% !important;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.items-carousel{
+   height: 375px;
+
+}
