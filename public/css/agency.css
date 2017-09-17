@@ -729,7 +729,8 @@ a.carousel-control-next:hover{
     cursor: pointer !important;
 }
 
-/*@media (min-width: 344px max-width: 780px) {
- 98
-
-  }*/
+@media only screen and (min-device-width:314px) and (max-device-width:514px){
+  img.d-block.img-fluid {
+    height: 350px;
+}
+}
